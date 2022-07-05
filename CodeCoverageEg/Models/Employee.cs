@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PipelineDemo.Models
+namespace CodeCoverageEg.Models
 {
     public class Employee
     {

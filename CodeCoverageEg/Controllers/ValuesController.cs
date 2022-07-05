@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using PipelineDemo.Models;
+using CodeCoverageEg.Models;
 using System.Linq;
 
-namespace PipelineDemo.Controllers
+namespace CodeCoverageEg.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
