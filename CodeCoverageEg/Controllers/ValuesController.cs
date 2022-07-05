@@ -13,10 +13,12 @@ namespace PipelineDemo.Controllers
     {
         public static List<Employee> employees = Employee.getEmployees();
 
+        [HttpGet]
         public ActionResult<List<Employee>> getAllEmployees()
         {
             return Ok(employees);
         }
+        [HttpGet("{id}")]
         public ActionResult<Employee> getEmpById(int id)
         {
             Employee e=employees.Where(x=>x.Eid==id).SingleOrDefault();
