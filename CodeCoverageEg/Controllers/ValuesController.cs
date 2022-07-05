@@ -24,5 +24,15 @@ namespace CodeCoverageEg.Controllers
             Employee e=employees.Where(x=>x.Eid==id).SingleOrDefault();
             return Ok(e);
         }
+
+        [HttpGet]
+        [Route("GetEmpSal")]
+        public ActionResult<int> getEmpBySal(int salmax)
+        {
+            var result=(from i in employees
+                       where i.Salary<salmax
+                       select i).ToList();
+            return Ok(result.Count);
+        }
     }
 }
