@@ -22,7 +22,7 @@ namespace CodeCoverageEg.Models
             emps.Add(new Employee(2, "Shyam", 25000));
             emps.Add(new Employee(3, "Rachna", 21000));
             emps.Add(new Employee(4, "Rishi",18000));
-            emps.Add(new Employee(5, "Vandhana",67000);
+            emps.Add(new Employee(5, "Vandhana",67000));
             return emps;
         }
     }
