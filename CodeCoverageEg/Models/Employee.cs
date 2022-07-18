@@ -22,7 +22,6 @@ namespace CodeCoverageEg.Models
             emps.Add(new Employee(1, "Shrivalli", 23090));
             emps.Add(new Employee(2, "Shyam", 25000));
             emps.Add(new Employee(3, "Rachna", 21000));
-            emps.Add(new Employee(4, "Rishi", 18000));
             return emps;
         }
      }
