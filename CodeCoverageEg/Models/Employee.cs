@@ -18,6 +18,7 @@ namespace CodeCoverageEg.Models
         public static List<Employee> emps = new List<Employee>();
         public static List<Employee> getEmployees()
         {
+            //Method tested
             emps.Add(new Employee(1, "Shrivalli", 23090));
             emps.Add(new Employee(2, "Shyam", 25000));
             emps.Add(new Employee(3, "Rachna", 21000));

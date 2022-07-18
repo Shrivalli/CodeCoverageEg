@@ -20,6 +20,7 @@ namespace CodeCoverageTest
         [Test]
         public void TestGetAllEmployees()
         {
+            //new test method added
             List<Employee> actualresult = Employee.getEmployees();
             int numberofemployees = actualresult.Count;
             int expectedemployees = 4;
