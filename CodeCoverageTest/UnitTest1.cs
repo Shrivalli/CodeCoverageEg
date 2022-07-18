@@ -1,7 +1,8 @@
-using NUnit.Framework;
 using CodeCoverageEg.Controllers;
 using CodeCoverageEg.Models;
 using Microsoft.AspNetCore.Mvc;
+using NUnit.Framework;
+using System.Collections.Generic;
 
 namespace CodeCoverageTest
 {
@@ -9,10 +10,21 @@ namespace CodeCoverageTest
     {
         
         public static ValuesController obj;
+        
         [SetUp]
         public void Setup()
         {
             obj = new ValuesController();
+        }
+
+        [Test]
+        public void TestGetAllEmployees()
+        {
+            List<Employee> actualresult = Employee.getEmployees();
+            int numberofemployees = actualresult.Count;
+            int expectedemployees = 4;
+            Assert.AreEqual(expectedemployees, numberofemployees);
+
         }
 
         [Test]

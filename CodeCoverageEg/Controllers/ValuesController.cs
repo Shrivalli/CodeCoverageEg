@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using CodeCoverageEg.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 using System.Collections.Generic;
-using CodeCoverageEg.Models;
 using System.Linq;
 
 namespace CodeCoverageEg.Controllers
