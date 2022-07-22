@@ -2,6 +2,7 @@ using CodeCoverageEg.Controllers;
 using CodeCoverageEg.Models;
 using Microsoft.AspNetCore.Mvc;
 using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 
 namespace CodeCoverageTest
@@ -23,7 +24,7 @@ namespace CodeCoverageTest
             //new test method added
             List<Employee> actualresult = Employee.getEmployees();
             int numberofemployees = actualresult.Count;
-            int expectedemployees = 4;
+            int expectedemployees = 3;
             Assert.AreEqual(expectedemployees, numberofemployees);
 
         }
@@ -39,6 +40,15 @@ namespace CodeCoverageTest
             Employee obj1 = result.Value as Employee;
             Assert.AreEqual("Shrivalli", obj1.Ename);
 
+        }
+
+        [Test]
+        public void TestgetEmppBySalController()
+        {
+            var actionResult = obj.getEmpBySal(24000);
+            var result = actionResult.Result as OkObjectResult;
+            int count = Convert.ToInt32(result.Value);
+            Assert.AreEqual(2, count);
         }
     }
 }
