@@ -29,6 +29,19 @@ namespace CodeCoverageTest
 
         }
 
+        [Test]
+        public void TestGetValuesMethod()
+        {
+             var actionResult = obj.getAllEmployees();
+            Employee e = new Employee() { Eid = 1, Ename = "Shrivalli", Salary = 23090 };
+            //Assert
+            var result = actionResult.Result as OkObjectResult;
+            var obj1 = result.Value as List<Employee>;
+            Assert.AreEqual("Shrivalli", obj1[0].Ename);
+
+
+        }
+
         /*[Test]
         public void TestGetValuesMethod()
         {
@@ -52,7 +65,7 @@ namespace CodeCoverageTest
             Assert.AreEqual(2, count);
         }*/
 
-        }
+    }
 
     }
 

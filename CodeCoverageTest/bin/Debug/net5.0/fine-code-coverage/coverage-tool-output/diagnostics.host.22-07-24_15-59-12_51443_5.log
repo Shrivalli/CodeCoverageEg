@@ -1,0 +1,173 @@
+TpTrace Verbose: 0 : 20784, 1, 2022/07/24, 15:59:13.453, 4585187033767, testhost.dll, Version: 16.9.4
+TpTrace Information: 0 : 20784, 1, 2022/07/24, 15:59:13.459, 4585187081272, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 1319],[--endpoint, 127.0.0.1:01319],[--role, client],[--parentprocessid, 24176],[--diag, H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\coverage-tool-output\diagnostics.host.22-07-24_15-59-12_51443_5.log],[--tracelevel, 4],[--datacollectionport, 1318],[--telemetryoptedin, false]
+TpTrace Information: 0 : 20784, 1, 2022/07/24, 15:59:13.461, 4585187094917, testhost.dll, Setting up debug trace listener.
+TpTrace Verbose: 0 : 20784, 1, 2022/07/24, 15:59:13.730, 4585189791018, testhost.dll, TestPlatformTraceListener.Setup: Replacing listener 0 with TestHostTraceListener.
+TpTrace Verbose: 0 : 20784, 1, 2022/07/24, 15:59:13.731, 4585189794477, testhost.dll, TestPlatformTraceListener.Setup: Added test platform trace listener.
+TpTrace Information: 0 : 20784, 1, 2022/07/24, 15:59:13.732, 4585189810146, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '24176'
+TpTrace Information: 0 : 20784, 1, 2022/07/24, 15:59:13.747, 4585189961620, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:01319'
+TpTrace Information: 0 : 20784, 1, 2022/07/24, 15:59:13.773, 4585190214651, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:01319
+TpTrace Information: 0 : 20784, 1, 2022/07/24, 15:59:13.782, 4585190306093, testhost.dll, DefaultEngineInvoker.ConnectToDatacollector: Connecting to datacollector, port: 1318
+TpTrace Information: 0 : 20784, 5, 2022/07/24, 15:59:13.783, 4585190317457, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:01319
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:13.786, 4585190343758, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Information: 0 : 20784, 1, 2022/07/24, 15:59:13.786, 4585190345892, testhost.dll, Trying to connect to server on socket : 127.0.0.1:1318 
+TpTrace Verbose: 0 : 20784, 1, 2022/07/24, 15:59:13.786, 4585190349583, testhost.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 20784, 10, 2022/07/24, 15:59:13.788, 4585190369843, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 20784, 10, 2022/07/24, 15:59:13.788, 4585190371352, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:13.789, 4585190376327, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:1319 localEndPoint: [::ffff:127.0.0.1]:1323
+TpTrace Information: 0 : 20784, 1, 2022/07/24, 15:59:13.789, 4585190380846, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:13.790, 4585190384402, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:1319 localEndPoint: [::ffff:127.0.0.1]:1323
+TpTrace Information: 0 : 20784, 11, 2022/07/24, 15:59:13.790, 4585190391556, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Information: 0 : 20784, 5, 2022/07/24, 15:59:13.950, 4585191988322, testhost.dll, TestRequestHandler.ProcessRequests: received message: (ProtocolVersion) -> 5
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:13.988, 4585192364707, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Logging TestHost Diagnostics in file: H:\\Learnings\\ASP.NET Core\\CodeCoverageEg\\CodeCoverageTest\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output\\diagnostics.host.22-07-24_15-59-12_51443_5.log"}}
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:13.988, 4585192367843, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:1319 localEndPoint: [::ffff:127.0.0.1]:1323
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:13.988, 4585192369603, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:1319 localEndPoint: [::ffff:127.0.0.1]:1323
+TpTrace Information: 0 : 20784, 5, 2022/07/24, 15:59:13.999, 4585192477097, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.Initialize) -> [
+  "H:\\Learnings\\ASP.NET Core\\CodeCoverageEg\\CodeCoverageTest\\bin\\Debug\\net5.0\\fine-code-coverage\\build-output\\NUnit3.TestAdapter.dll"
+]
+TpTrace Information: 0 : 20784, 5, 2022/07/24, 15:59:13.999, 4585192479242, testhost.dll, Execution Session Initialize.
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:14.013, 4585192619379, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:1319 localEndPoint: [::ffff:127.0.0.1]:1323
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.017, 4585192655890, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.019, 4585192675082, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.021, 4585192692742, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.021, 4585192699223, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.021, 4585192700375, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.025, 4585192736844, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.028, 4585192764962, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.028, 4585192767461, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.028, 4585192768844, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.028, 4585192769834, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.029, 4585192772010, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.030, 4585192787315, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:14.031, 4585192792815, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:1319 localEndPoint: [::ffff:127.0.0.1]:1323
+TpTrace Information: 0 : 20784, 5, 2022/07/24, 15:59:14.034, 4585192823991, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "H:\\Learnings\\ASP.NET Core\\CodeCoverageEg\\CodeCoverageTest\\bin\\Debug\\net5.0\\fine-code-coverage\\build-output\\CodeCoverageTest.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>H:\\Learnings\\ASP.NET Core\\CodeCoverageEg\\CodeCoverageTest\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n    <TargetPlatform>X64</TargetPlatform>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v5.0</TargetFrameworkVersion>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"blame\" enabled=\"True\" />\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\6.0.107\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"blame\" enabled=\"True\">\r\n        <Configuration>\r\n          <ResultsDirectory>H:\\Learnings\\ASP.NET Core\\CodeCoverageEg\\CodeCoverageTest\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n        </Configuration>\r\n      </DataCollector>\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Information: 0 : 20784, 5, 2022/07/24, 15:59:14.034, 4585192826336, testhost.dll, Execution started.
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.037, 4585192860642, testhost.dll, AssemblyResolver.OnResolve: NUnit3.TestAdapter: Resolving assembly.
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.040, 4585192884592, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: NUnit3.TestAdapter, from path: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.043, 4585192914247, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.api: Resolving assembly.
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.044, 4585192923109, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: nunit.engine.api, from path: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\nunit.engine.api.dll
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.050, 4585192985313, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.051, 4585192992398, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.051, 4585192993627, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.051, 4585192994392, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.051, 4585192995164, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.051, 4585192995817, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.054, 4585193028952, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation2 TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor2
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.055, 4585193033772, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.055, 4585193034587, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.055, 4585193035002, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.055, 4585193037100, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.055, 4585193038696, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.055, 4585193039212, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.055, 4585193039652, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.055, 4585193040014, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.055, 4585193040388, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.055, 4585193040975, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.056, 4585193044477, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.056, 4585193045172, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.056, 4585193045675, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.056, 4585193046449, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.056, 4585193047062, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.056, 4585193047402, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.064, 4585193131622, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.065, 4585193140999, testhost.dll, TestExecutorExtensionManager: Loading executor NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.066, 4585193142006, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.066, 4585193150843, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestSettingsProviderPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ISettingsProvider
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.067, 4585193154149, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.067, 4585193155283, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.067, 4585193155955, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.067, 4585193157612, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.067, 4585193158210, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.067, 4585193158632, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.067, 4585193158981, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.067, 4585193159331, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.067, 4585193159696, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.067, 4585193160422, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.068, 4585193164153, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.068, 4585193164854, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.068, 4585193165232, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.068, 4585193165577, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.068, 4585193166040, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.068, 4585193166396, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.069, 4585193176028, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.069, 4585193177265, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:14.078, 4585193267728, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:1319 localEndPoint: [::ffff:127.0.0.1]:1323
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.196, 4585194447217, testhost.dll, TestDiscoveryManager: Discovering tests from sources H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\CodeCoverageTest.dll
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.200, 4585194483552, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestDiscovererPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestDiscoverer
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.200, 4585194485708, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.200, 4585194486576, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.200, 4585194487298, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.200, 4585194489143, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.200, 4585194490081, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.200, 4585194491072, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.201, 4585194491669, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.201, 4585194492231, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.201, 4585194492801, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.201, 4585194493834, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.205, 4585194538234, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.205, 4585194539825, testhost.dll, TestPluginCache: Discoverers are 'NUnit.VisualStudio.TestAdapter.NUnit3TestDiscoverer, NUnit3.TestAdapter, Version=3.17.0.0, Culture=neutral, PublicKeyToken=4cb40d35494691ac'.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.205, 4585194540608, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.205, 4585194541292, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.206, 4585194541916, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.206, 4585194542484, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.217, 4585194653281, testhost.dll, PEReaderHelper.GetAssemblyType: Determined assemblyType:'Managed' for source: 'H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\CodeCoverageTest.dll'
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.225, 4585194734054, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://NUnit3TestExecutor
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.229, 4585194776193, testhost.dll, AssemblyResolver.OnResolve: nunit.engine: Resolving assembly.
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.230, 4585194785066, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: nunit.engine, from path: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\nunit.engine.dll
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.230, 4585194786694, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.core: Resolving assembly.
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.231, 4585194794607, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: nunit.engine.core, from path: H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\nunit.engine.core.dll
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.241, 4585194901674, testhost.dll, NUnit Adapter 3.17.0.0: Test execution started
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.242, 4585194903834, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"NUnit Adapter 3.17.0.0: Test execution started"}}
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.290, 4585195386508, testhost.dll, Running all tests in H:\Learnings\ASP.NET Core\CodeCoverageEg\CodeCoverageTest\bin\Debug\net5.0\fine-code-coverage\build-output\CodeCoverageTest.dll
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.290, 4585195388365, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Running all tests in H:\\Learnings\\ASP.NET Core\\CodeCoverageEg\\CodeCoverageTest\\bin\\Debug\\net5.0\\fine-code-coverage\\build-output\\CodeCoverageTest.dll"}}
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.299, 4585195481332, testhost.dll, AssemblyResolver.OnResolve: Mono.Cecil: Resolving assembly.
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.300, 4585195483789, testhost.dll, AssemblyResolver.OnResolve: Mono.Cecil: Failed to load assembly.
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.577, 4585198257206, testhost.dll,    NUnit3TestExecutor discovered 2 of 2 NUnit test cases
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.577, 4585198259595, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"   NUnit3TestExecutor discovered 2 of 2 NUnit test cases"}}
+TpTrace Verbose: 0 : 20784, 12, 2022/07/24, 15:59:14.611, 4585198596361, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: CodeCoverageTest.Tests.TestGetAllEmployees.
+TpTrace Verbose: 0 : 20784, 12, 2022/07/24, 15:59:14.662, 4585199108218, testhost.dll, TestExecutionRecorder.RecordEnd: test: CodeCoverageTest.Tests.TestGetAllEmployees execution completed.
+TpTrace Verbose: 0 : 20784, 12, 2022/07/24, 15:59:14.679, 4585199276094, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: CodeCoverageTest.Tests.TestGetAllEmployees.
+TpTrace Warning: 0 : 20784, 12, 2022/07/24, 15:59:14.683, 4585199321286, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 20784, 12, 2022/07/24, 15:59:14.684, 4585199323464, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestGetAllEmployees' in inProgress list.
+TpTrace Verbose: 0 : 20784, 12, 2022/07/24, 15:59:14.684, 4585199325189, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: CodeCoverageTest.Tests.TestGetValuesMethod.
+TpTrace Verbose: 0 : 20784, 12, 2022/07/24, 15:59:14.686, 4585199342820, testhost.dll, TestExecutionRecorder.RecordEnd: test: CodeCoverageTest.Tests.TestGetValuesMethod execution completed.
+TpTrace Verbose: 0 : 20784, 12, 2022/07/24, 15:59:14.687, 4585199355091, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: CodeCoverageTest.Tests.TestGetValuesMethod.
+TpTrace Warning: 0 : 20784, 12, 2022/07/24, 15:59:14.687, 4585199356392, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 20784, 12, 2022/07/24, 15:59:14.687, 4585199356854, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestGetValuesMethod' in inProgress list.
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.691, 4585199394196, testhost.dll, NUnit Adapter 3.17.0.0: Test execution complete
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.691, 4585199395815, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"NUnit Adapter 3.17.0.0: Test execution complete"}}
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.700, 4585199484401, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://NUnit3TestExecutor
+TpTrace Information: 0 : 20784, 4, 2022/07/24, 15:59:14.705, 4585199537095, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.745, 4585199938375, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":2,"Stats":{"Passed":2}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:00.4814011","Metrics":{}},"LastRunTests":{"NewTestResults":[{"TestCase":{"Id":"5d432d02-bff9-2ee6-58dc-f2ceab1c06d7","FullyQualifiedName":"CodeCoverageTest.Tests.TestGetAllEmployees","DisplayName":"TestGetAllEmployees","ExecutorUri":"executor://NUnit3TestExecutor","Source":"H:\\Learnings\\ASP.NET Core\\CodeCoverageEg\\CodeCoverageTest\\bin\\Debug\\net5.0\\fine-code-coverage\\build-output\\CodeCoverageTest.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"TestGetAllEmployees","Messages":[],"ComputerName":"LAPTOP-U13V2G8I","Duration":"00:00:00.0285560","StartTime":"2022-07-24T10:29:14.6107142+00:00","EndTime":"2022-07-24T10:29:14.639177+00:00","Properties":[]},{"TestCase":{"Id":"6afcae1c-6ade-a491-5e8b-9ebee8982c21","FullyQualifiedName":"CodeCoverageTest.Tests.TestGetValuesMethod","DisplayName":"TestGetValuesMethod","ExecutorUri":"executor://NUnit3TestExecutor","Source":"H:\\Learnings\\ASP.NET Core\\CodeCoverageEg\\CodeCoverageTest\\bin\\Debug\\net5.0\\fine-code-coverage\\build-output\\CodeCoverageTest.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"TestGetValuesMethod","Messages":[],"ComputerName":"LAPTOP-U13V2G8I","Duration":"00:00:00.0024240","StartTime":"2022-07-24T10:29:14.6411474+00:00","EndTime":"2022-07-24T10:29:14.6435709+00:00","Properties":[]}],"TestRunStatistics":{"ExecutedTests":2,"Stats":{"Passed":2}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":["executor://nunit3testexecutor/"]}}
+TpTrace Verbose: 0 : 20784, 4, 2022/07/24, 15:59:14.746, 4585199942525, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:14.773, 4585200218673, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:1319 localEndPoint: [::ffff:127.0.0.1]:1323
+TpTrace Information: 0 : 20784, 5, 2022/07/24, 15:59:14.774, 4585200222206, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 20784, 5, 2022/07/24, 15:59:14.774, 4585200223274, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 20784, 5, 2022/07/24, 15:59:14.774, 4585200227943, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:01319
+TpTrace Information: 0 : 20784, 5, 2022/07/24, 15:59:14.774, 4585200229297, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:14.775, 4585200231854, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 20784, 5, 2022/07/24, 15:59:14.775, 4585200233037, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 20784, 5, 2022/07/24, 15:59:14.775, 4585200238956, testhost.dll, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:01319, error:
+TpTrace Information: 0 : 20784, 1, 2022/07/24, 15:59:14.776, 4585200244690, testhost.dll, Closing the connection !
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:14.776, 4585200244689, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 20784, 1, 2022/07/24, 15:59:14.776, 4585200246344, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:01319
+TpTrace Verbose: 0 : 20784, 5, 2022/07/24, 15:59:14.776, 4585200247354, testhost.dll, TcpClientExtensions.MessageLoopAsync: exiting MessageLoopAsync remoteEndPoint: [::ffff:127.0.0.1]:1319 localEndPoint: [::ffff:127.0.0.1]:1323
+TpTrace Verbose: 0 : 20784, 1, 2022/07/24, 15:59:14.776, 4585200248239, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 20784, 1, 2022/07/24, 15:59:14.776, 4585200250855, testhost.dll, Testhost process exiting.

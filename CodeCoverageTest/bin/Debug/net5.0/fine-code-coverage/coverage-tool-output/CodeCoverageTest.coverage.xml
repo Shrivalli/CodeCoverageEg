@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.375" branch-rate="0" version="1.9" timestamp="1658496855" lines-covered="42" lines-valid="112" branches-covered="0" branches-valid="2">
+<coverage line-rate="0.5068" branch-rate="0" version="1.9" timestamp="1658658555" lines-covered="37" lines-valid="73" branches-covered="0" branches-valid="2">
   <sources>
     <source>H:\Learnings\ASP.NET Core\CodeCoverageEg\</source>
     <source>C:\</source>
   </sources>
   <packages>
-    <package name="CodeCoverageEg" line-rate="0.284" branch-rate="0" complexity="25">
+    <package name="CodeCoverageEg" line-rate="0.375" branch-rate="0" complexity="16">
       <classes>
         <class name="CodeCoverageEg.Program" filename="CodeCoverageEg\Program.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
@@ -121,51 +121,21 @@
             <line number="15" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="CodeCoverageEg.WeatherForecast" filename="CodeCoverageEg\WeatherForecast.cs" line-rate="0" branch-rate="1" complexity="4">
-          <methods>
-            <method name="get_Date" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="7" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="get_TemperatureC" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="9" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="get_TemperatureF" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="11" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="get_Summary" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="13" hits="0" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="7" hits="0" branch="False" />
-            <line number="9" hits="0" branch="False" />
-            <line number="11" hits="0" branch="False" />
-            <line number="13" hits="0" branch="False" />
-          </lines>
-        </class>
-        <class name="CodeCoverageEg.Models.Employee" filename="CodeCoverageEg\Models\Employee.cs" line-rate="0.9411" branch-rate="1" complexity="7">
+        <class name="CodeCoverageEg.Models.Employee" filename="CodeCoverageEg\Models\Employee.cs" line-rate="1" branch-rate="1" complexity="7">
           <methods>
             <method name="get_Eid" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="10" branch="False" />
+                <line number="7" hits="7" branch="False" />
               </lines>
             </method>
             <method name="get_Ename" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="6" branch="False" />
+                <line number="8" hits="8" branch="False" />
               </lines>
             </method>
             <method name="get_Salary" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="12" branch="False" />
+                <line number="9" hits="7" branch="False" />
               </lines>
             </method>
             <method name="getEmployees" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -178,9 +148,9 @@
                 <line number="26" hits="2" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="0" branch="False" />
+                <line number="10" hits="3" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.Int32,System.String,System.Single)" line-rate="1" branch-rate="1" complexity="1">
@@ -200,16 +170,16 @@
             </method>
           </methods>
           <lines>
-            <line number="7" hits="10" branch="False" />
-            <line number="8" hits="6" branch="False" />
-            <line number="9" hits="12" branch="False" />
+            <line number="7" hits="7" branch="False" />
+            <line number="8" hits="8" branch="False" />
+            <line number="9" hits="7" branch="False" />
             <line number="20" hits="2" branch="False" />
             <line number="22" hits="2" branch="False" />
             <line number="23" hits="2" branch="False" />
             <line number="24" hits="2" branch="False" />
             <line number="25" hits="2" branch="False" />
             <line number="26" hits="2" branch="False" />
-            <line number="10" hits="0" branch="False" />
+            <line number="10" hits="3" branch="False" />
             <line number="11" hits="6" branch="False" />
             <line number="12" hits="6" branch="False" />
             <line number="13" hits="6" branch="False" />
@@ -219,31 +189,13 @@
             <line number="18" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="CodeCoverageEg.Controllers.ValuesController" filename="CodeCoverageEg\Controllers\ValuesController.cs" line-rate="0.6428" branch-rate="1" complexity="4">
+        <class name="CodeCoverageEg.Controllers.ValuesController" filename="CodeCoverageEg\Controllers\ValuesController.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
-            <method name="getAllEmployees" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="getAllEmployees" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="0" branch="False" />
-                <line number="17" hits="0" branch="False" />
-                <line number="18" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="getEmpById" signature="(System.Int32)" line-rate="0.5" branch-rate="1" complexity="1">
-              <lines>
-                <line number="21" hits="1" branch="False" />
-                <line number="22" hits="5" branch="False" />
-                <line number="23" hits="0" branch="False" />
-                <line number="24" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="getEmpBySal" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="29" hits="1" branch="False" />
-                <line number="30" hits="1" branch="False" />
-                <line number="31" hits="6" branch="False" />
-                <line number="32" hits="1" branch="False" />
-                <line number="33" hits="1" branch="False" />
-                <line number="34" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
               </lines>
             </method>
             <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -253,79 +205,15 @@
             </method>
           </methods>
           <lines>
-            <line number="16" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="21" hits="1" branch="False" />
-            <line number="22" hits="5" branch="False" />
-            <line number="23" hits="0" branch="False" />
-            <line number="24" hits="0" branch="False" />
-            <line number="29" hits="1" branch="False" />
-            <line number="30" hits="1" branch="False" />
-            <line number="31" hits="6" branch="False" />
-            <line number="32" hits="1" branch="False" />
-            <line number="33" hits="1" branch="False" />
-            <line number="34" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
             <line number="12" hits="1" branch="False" />
-          </lines>
-        </class>
-        <class name="CodeCoverageEg.Controllers.WeatherForecastController" filename="CodeCoverageEg\Controllers\WeatherForecastController.cs" line-rate="0" branch-rate="1" complexity="3">
-          <methods>
-            <method name="Get" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="27" hits="0" branch="False" />
-                <line number="28" hits="0" branch="False" />
-                <line number="29" hits="0" branch="False" />
-                <line number="30" hits="0" branch="False" />
-                <line number="31" hits="0" branch="False" />
-                <line number="32" hits="0" branch="False" />
-                <line number="33" hits="0" branch="False" />
-                <line number="34" hits="0" branch="False" />
-                <line number="35" hits="0" branch="False" />
-                <line number="36" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name=".ctor" signature="(Microsoft.Extensions.Logging.ILogger`1&lt;CodeCoverageEg.Controllers.WeatherForecastController&gt;)" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="20" hits="0" branch="False" />
-                <line number="21" hits="0" branch="False" />
-                <line number="22" hits="0" branch="False" />
-                <line number="23" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name=".cctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="13" hits="0" branch="False" />
-                <line number="14" hits="0" branch="False" />
-                <line number="15" hits="0" branch="False" />
-                <line number="16" hits="0" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="27" hits="0" branch="False" />
-            <line number="28" hits="0" branch="False" />
-            <line number="29" hits="0" branch="False" />
-            <line number="30" hits="0" branch="False" />
-            <line number="31" hits="0" branch="False" />
-            <line number="32" hits="0" branch="False" />
-            <line number="33" hits="0" branch="False" />
-            <line number="34" hits="0" branch="False" />
-            <line number="35" hits="0" branch="False" />
-            <line number="36" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-            <line number="21" hits="0" branch="False" />
-            <line number="22" hits="0" branch="False" />
-            <line number="23" hits="0" branch="False" />
-            <line number="13" hits="0" branch="False" />
-            <line number="14" hits="0" branch="False" />
-            <line number="15" hits="0" branch="False" />
-            <line number="16" hits="0" branch="False" />
           </lines>
         </class>
       </classes>
     </package>
-    <package name="CodeCoverageTest" line-rate="0.7082999999999999" branch-rate="1" complexity="5">
+    <package name="CodeCoverageTest" line-rate="0.9411" branch-rate="1" complexity="4">
       <classes>
         <class name="AutoGeneratedProgram" filename="Users\Shrivalli\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -339,13 +227,13 @@
             <line number="4" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="CodeCoverageTest.Tests" filename="CodeCoverageTest\UnitTest1.cs" line-rate="0.7391" branch-rate="1" complexity="4">
+        <class name="CodeCoverageTest.Tests" filename="CodeCoverageTest\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="3" branch="False" />
-                <line number="18" hits="3" branch="False" />
-                <line number="19" hits="3" branch="False" />
+                <line number="17" hits="2" branch="False" />
+                <line number="18" hits="2" branch="False" />
+                <line number="19" hits="2" branch="False" />
               </lines>
             </method>
             <method name="TestGetAllEmployees" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -358,33 +246,22 @@
                 <line number="30" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="TestGetValuesMethod" signature="()" line-rate="0.375" branch-rate="1" complexity="1">
+            <method name="TestGetValuesMethod" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="34" hits="1" branch="False" />
                 <line number="35" hits="1" branch="False" />
                 <line number="36" hits="1" branch="False" />
-                <line number="37" hits="0" branch="False" />
-                <line number="39" hits="0" branch="False" />
-                <line number="40" hits="0" branch="False" />
-                <line number="41" hits="0" branch="False" />
-                <line number="43" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="TestgetEmppBySalController" signature="()" line-rate="0.8332999999999999" branch-rate="1" complexity="1">
-              <lines>
-                <line number="47" hits="1" branch="False" />
-                <line number="48" hits="1" branch="False" />
-                <line number="49" hits="1" branch="False" />
-                <line number="50" hits="1" branch="False" />
-                <line number="51" hits="1" branch="False" />
-                <line number="52" hits="0" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="17" hits="3" branch="False" />
-            <line number="18" hits="3" branch="False" />
-            <line number="19" hits="3" branch="False" />
+            <line number="17" hits="2" branch="False" />
+            <line number="18" hits="2" branch="False" />
+            <line number="19" hits="2" branch="False" />
             <line number="23" hits="1" branch="False" />
             <line number="25" hits="1" branch="False" />
             <line number="26" hits="1" branch="False" />
@@ -394,17 +271,10 @@
             <line number="34" hits="1" branch="False" />
             <line number="35" hits="1" branch="False" />
             <line number="36" hits="1" branch="False" />
-            <line number="37" hits="0" branch="False" />
-            <line number="39" hits="0" branch="False" />
-            <line number="40" hits="0" branch="False" />
-            <line number="41" hits="0" branch="False" />
-            <line number="43" hits="0" branch="False" />
-            <line number="47" hits="1" branch="False" />
-            <line number="48" hits="1" branch="False" />
-            <line number="49" hits="1" branch="False" />
-            <line number="50" hits="1" branch="False" />
-            <line number="51" hits="1" branch="False" />
-            <line number="52" hits="0" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
           </lines>
         </class>
       </classes>
